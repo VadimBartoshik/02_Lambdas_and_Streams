@@ -5,6 +5,7 @@ import com.epam.task1.PersonList;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.stream.Stream;
 
 public class Main {
 
@@ -16,7 +17,6 @@ public class Main {
         Person irina = new Person("Irina", 19);
         Person nikita = new Person("Nikita", 18);
         Person dasha = new Person("Dasha", 21);
-
 
         personList.getPersonList().add(vadim);
         personList.getPersonList().add(dasha);
