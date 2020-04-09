@@ -1,4 +1,4 @@
-package com.epam.task2;
+package com.epam.task2.task2_1;
 
 import java.util.function.*;
 

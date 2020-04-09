@@ -1,0 +1,31 @@
+Task 2.2 Create your own functional interface and add several implementations using
+         both lambda expressions and inner anonymous classes.
+
+         public class Runner {
+             public static void main(String[] args) {
+                 Human.human.sayHello();
+             }
+         }
+
+         result: Hello
+
+
+    public class Runner {
+        public static void main(String[] args) {
+
+            Operation operation;
+            operation = (x,y)->x+y;
+
+            int result = operation.calculate(10, 20);
+            System.out.println(result);
+        }
+    }
+
+        result: 30
+
+
+Task 2.3-2.4  Add few default methods to it and use them.
+              Add few static methods to it and use them.
+
+
+

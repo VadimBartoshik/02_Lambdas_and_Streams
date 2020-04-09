@@ -1,0 +1,38 @@
+   task 2.1 Implement each of main (supplier, predicate etc.) using lambda expressions.
+
+      public static void main(String[] args) {
+        try {
+            System.out.println(Calculator.SquareRoot(-3.0));
+        }catch (ArithmeticException ex){
+            System.out.println(ex.getMessage());
+        }
+    }
+
+      result: cannot find the square root of a negative number
+
+
+      public static void main(String[] args) {
+        try {
+            System.out.println(Calculator.SquareRoot(25.0));
+        }catch (ArithmeticException ex){
+            System.out.println(ex.getMessage());
+        }
+    }
+
+      result: 5.0
+
+          public static void main(String[] args) {
+              System.out.println(Calculator.addition(3.0, 1.0));
+              System.out.println(Calculator.multiplication(3.0, 1.0));
+              System.out.println(Calculator.subtraction(3.0, 1.0));
+              System.out.println(Calculator.division(3.0, 1.0));
+          }
+
+       result: 4.0
+               3.0
+               2.0
+               3.0
+
+
+
+
