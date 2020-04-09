@@ -1,4 +1,4 @@
-package com.epam.task2.task2_2;
+package com.epam.task2.task2_2_3_4;
 
 public class Runner {
     public static void main(String[] args) {
@@ -12,4 +12,3 @@ public class Runner {
         Operation.isNull("abc");
     }
 }
-    

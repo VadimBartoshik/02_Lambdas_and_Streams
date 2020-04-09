@@ -1,4 +1,4 @@
-package com.epam.task2.task2_2;
+package com.epam.task2.task2_2_3_4;
 
 
 @FunctionalInterface
