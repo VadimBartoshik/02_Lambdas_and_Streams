@@ -29,3 +29,19 @@ Task 2.3-2.4  Add few default methods to it and use them.
 
 
 
+public class Runner {
+    public static void main(String[] args) {
+
+        Operation operation;
+        operation = (x,y)->x+y;
+
+        int result = operation.calculate(10, 20);
+        System.out.println(result);
+        operation.print("");
+        Operation.isNull("abc");
+    }
+}
+
+result:  30
+         Статический метод проверки на null
+         Статический метод проверки на null

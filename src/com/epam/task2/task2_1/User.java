@@ -1,7 +1,6 @@
-package com.epam.task2;
+package com.epam.task2.task2_1;
 
 import java.util.Objects;
-import java.util.Scanner;
 import java.util.function.Supplier;
 
 public class User {
