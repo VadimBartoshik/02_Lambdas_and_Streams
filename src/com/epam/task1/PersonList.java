@@ -24,7 +24,7 @@ public class PersonList implements Comparator {
     }
 
     public void printPerson() {
-        personList.forEach((Person value) -> System.out.println(value.getName() + " " + value.getAge()));
+        personList.forEach((person) -> System.out.println(person.getName() + " " + person.getAge()));
 
     }
 
@@ -35,6 +35,7 @@ public class PersonList implements Comparator {
             }
         }
         return null;
+
     }
 
 
